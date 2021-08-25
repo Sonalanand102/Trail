@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:100,200,300,400,500,600,700,800,900');
+
 *{
     margin: 0;
     padding: 0;
     background-color: 'red';
 }
 
-.bceLogo{
-    margin: 0;
-    padding: auto;
-    width: 25;
-    height: 25;
-    align-items: center;
-    align-content: center;
-    background: rgb(34, 3, 59);
-
+.bceLogo img{
+    height: 72px;
+    width:72px;
+    border-radius:50%; 
+    margin-left:20px;
+    padding:2px;
 }
+/* .navbar-menu ol li{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navbar-menu ol li a{
+    text-decoration:none;
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+}
+
+.socialMedia ul li{
+    display: flex;
+    flex-direction: row-reverse;
+} */
